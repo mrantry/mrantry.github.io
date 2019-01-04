@@ -3,9 +3,9 @@ a {
   text-decoration: none;
 }
 .me {
-  width: 400px;
   margin: 90px auto;
 }
+.me ul,
 .me p,
 .me h1 {
   text-transform: uppercase;
@@ -17,6 +17,12 @@ a {
 }
 .me span {
   font-weight: bold;
+}
+.me img {
+  padding: 50px;
+}
+.me a:hover {
+  text-decoration: underline
 }
 .social {
   position: fixed;
